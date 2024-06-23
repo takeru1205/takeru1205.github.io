@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Diar7y on takeru1205</title>
+    <link>http://localhost:57460/tags/diar7y/</link>
+    <description>Recent content in Diar7y on takeru1205</description>
+    <image>
+      <title>takeru1205</title>
+      <url>http://localhost:57460/profile.JPG</url>
+      <link>http://localhost:57460/profile.JPG</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Jun 2024 15:16:29 +0900</lastBuildDate>
+    <atom:link href="http://localhost:57460/tags/diar7y/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 06 23</title>
+      <link>http://localhost:57460/posts/2024/2024-06-23/</link>
+      <pubDate>Sun, 23 Jun 2024 15:16:29 +0900</pubDate>
+      <guid>http://localhost:57460/posts/2024/2024-06-23/</guid>
+      <description>画像挿入 ぽんず</description>
+    </item>
+  </channel>
+</rss>

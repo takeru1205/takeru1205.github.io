@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Diary on takeru1205</title>
+    <link>https://examplesite.com/tags/diary/</link>
+    <description>Recent content in Diary on takeru1205</description>
+    <image>
+      <title>takeru1205</title>
+      <url>https://examplesite.com/profile.JPG</url>
+      <link>https://examplesite.com/profile.JPG</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Jun 2024 15:16:29 +0900</lastBuildDate>
+    <atom:link href="https://examplesite.com/tags/diary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 06 23</title>
+      <link>https://examplesite.com/posts/2024/2024-06-23/</link>
+      <pubDate>Sun, 23 Jun 2024 15:16:29 +0900</pubDate>
+      <guid>https://examplesite.com/posts/2024/2024-06-23/</guid>
+      <description>はてなブログからの移行 Hugoを触ってみたくて、ブログを作ってみた。
+使っているテンプレートはPaperModです。
+画像を挿入する練習 家族のぽんずくんです。
+短足マンチカンで約5kgくらいあります。
+TeXの記法 KaTeXが入っていて、TeXの記法も使えるようにしてあるから、数式も書こうと思えば書ける。
+$$ \begin{aligned} L &amp;amp;= D^{-1/2}LD^{-1/2} \\ &amp;amp;= I - D^{-1/2}AD^{-1/2} \end{aligned} $$</description>
+    </item>
+  </channel>
+</rss>

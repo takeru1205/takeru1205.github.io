@@ -1,3 +1,138 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://examplesite.com/"
+title = "takeru1205"
+paginate = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "takeru1205"
+description = "takeru1205's portfolio and blog"
+keywords = [ "Blog", "Portfolio", "PaperMod" , "Machine Learning", "ML", "MLOps"]
+author = "Takeru Matsumoto"
+images = [ "profile.JPG" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+math = true
+
+  [params.assets]
+  favicon = "Cat_Emoji.png"
+  favicon16x16 = "Cat_Emoji.png"
+  favicon32x32 = "Cat_Emoji.png"
+  apple_touch_icon = "Cat_Emoji.png"
+  safari_pinned_tab = "Cat_Emoji.png"
+
+  [params.label]
+  text = "'s den"
+  icon = "Cat_Emoji.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = true
+  title = "takeru1205"
+  subtitle = "ML Engineer"
+  imageUrl = "profile.JPG"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "me and cats"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "About"
+    url = "about"
+
+  [params.homeInfoParams]
+  Title = "Hi there 🐈"
+  Content = "Welcome to my blog"
+
+  [[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/tkr12051"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/takeru1205"
+
+# [params.analytics.google]
+# SiteVerificationTag = "XYZabc"
+# 
+# [params.analytics.bing]
+# SiteVerificationTag = "XYZabc"
+# 
+# [params.analytics.yandex]
+# SiteVerificationTag = "XYZabc"
+# 
+#   [params.cover]
+#   hidden = true
+#   hiddenInList = true
+#   hiddenInSingle = true
+# 
+#   [params.editPost]
+#   URL = "https://github.com/<path_to_repo>/content"
+#   Text = "Suggest Changes"
+#   appendFilePath = true
+# 
+#   [params.fuseOpts]
+#   isCaseSensitive = false
+#   shouldSort = true
+#   location = 0
+#   distance = 1_000
+#   threshold = 0.4
+#   minMatchCharLength = 0
+#   limit = 10
+#   keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 30
+
+# [[menu.main]]
+# identifier = "example"
+# name = "example.org"
+# url = "https://example.org"
+# weight = 30
+
+# [markup.highlight]
+# noClasses = false
+
