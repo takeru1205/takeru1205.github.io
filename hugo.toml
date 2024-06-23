@@ -1,4 +1,4 @@
-baseURL = "https://takeru1205.github.io/portfolio/"
+baseURL = "https://takeru1205.github.io/"
 publishDir = "docs"
 title = "takeru1205"
 paginate = 5
@@ -127,13 +127,3 @@ identifier = "tags"
 name = "tags"
 url = "/tags/"
 weight = 30
-
-# [[menu.main]]
-# identifier = "example"
-# name = "example.org"
-# url = "https://example.org"
-# weight = 30
-
-# [markup.highlight]
-# noClasses = false
-
