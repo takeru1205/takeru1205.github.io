@@ -43,6 +43,7 @@ takeru1205です。\
 ## 連絡先情報
 - GitHub: [github.com/takeru1205](https://github.com/takeru120://github.com/takeru1205)
 - Twitter: [@tkr12051](https://x.com/tkr12051)
+- はてなブログ: [tkr1205.hatenablog](https://tkr1205.hatenablog.com)
 
 ---
 

@@ -81,6 +81,10 @@ math = true
   name = "github"
   url = "https://github.com/takeru1205"
 
+  [[params.socialIcons]]
+  name = "hatena"
+  url = "https://tkr1205.hatenablog.com"
+
 # [params.analytics.google]
 # SiteVerificationTag = "XYZabc"
 # 
