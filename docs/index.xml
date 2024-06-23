@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>takeru1205</title>
+    <link>https://takeru1205.github.io/portfolio/</link>
+    <description>Recent content on takeru1205</description>
+    <image>
+      <title>takeru1205</title>
+      <url>https://takeru1205.github.io/portfolio/profile.JPG</url>
+      <link>https://takeru1205.github.io/portfolio/profile.JPG</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 23 Jun 2024 15:16:29 +0900</lastBuildDate>
+    <atom:link href="https://takeru1205.github.io/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024 06 23</title>
+      <link>https://takeru1205.github.io/portfolio/posts/2024/2024-06-23/</link>
+      <pubDate>Sun, 23 Jun 2024 15:16:29 +0900</pubDate>
+      <guid>https://takeru1205.github.io/portfolio/posts/2024/2024-06-23/</guid>
+      <description>はてなブログからの移行 Hugoを触ってみたくて、ブログを作ってみた。
+使っているテンプレートはPaperModです。
+画像を挿入する練習 家族のぽんずくんです。
+短足マンチカンで約5kgくらいあります。
+TeXの記法 KaTeXが入っていて、TeXの記法も使えるようにしてあるから、数式も書こうと思えば書ける。
+$$ \begin{aligned} L &amp;amp;= D^{-1/2}LD^{-1/2} \\ &amp;amp;= I - D^{-1/2}AD^{-1/2} \end{aligned} $$</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://takeru1205.github.io/portfolio/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://takeru1205.github.io/portfolio/about/</guid>
+      <description>About 大事な家族のぽんず君(短足マンチカン)です。
+自己紹介 takeru1205です。
+学生時代は深層強化学習の研究に取り組み、ロボットなどの報酬が疎な環境における学習の高速化について研究していました。
+お仕事では、AWSのSageMakerを中心とした機械学習基盤の構築・運用、そしてモデリング業務を担当しています。
+個人的な興味としては、モデルをコネるモデリング作業よりも、機械学習プロセス全体の効率化に興味があります。 具体的には、実験や運用をより効率的に行うための仕組みを考案し構築すること、そしてMLOpsのような技術を活用して、機械学習の開発から運用までの過程をより便利にすることに情熱を注いでいます。
+経歴 2022 - 現在: 機械学習エンジニア/データサイエンティスト, 株式会社KADOKAWA Connected 2020 - 2022: システム情報科学研究科, 公立はこだて未来大学院 資格 2023 - AWS Certified Machine Learning – Specialty スキルセット プログラミング言語: Python, Rust(勉強中) フレームワーク: PyTorch, numpy, pandas, Polars, scikit-learn ツール: SageMaker(AWS), Docker, Linux, Terraform 趣味・興味 ねこ🐈 動画・生配信を見ること コンピュータ・機械 機械学習 F1🏎️ バイク FPS Publication Goal Expanded Experience Replay Method for Fast and Stable Reinforcement Learning
+Takeru Matsumoto, Sadayoshi Mikami. The International Society and Artificial Life and Robotics(ISAROB), Oita Japan and ONLINE, January 2022.</description>
+    </item>
+  </channel>
+</rss>
