@@ -94,7 +94,7 @@ IRLToolkitのダッシュボード画面(https://account.irltoolkit.com/plugin/s
 
 最終的に配信プラットフォームにデータを送出するのにはOBS Studioを利用しています。そのため、Websocketでは設定しきれない設定などもあり、これらを細かく設定するために、xpraというリモートデスクトップアプリケーションを利用し、リモートデスクトップもできるようにしてあります。
 
-![tkrun-arch](skrun-arch.png)
+![tkrun-arch](tkrun-arch.png)
 
 
 
