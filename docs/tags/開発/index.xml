@@ -30,7 +30,7 @@ OBS Studioのリモート操作機能 右側がダッシュボード機能、左
 配信デバイス → srt-live-transmit → OBS Studio → 配信プラットフォーム 制御フロー
 Streamlitダッシュボード ↔ OBS Websocket ↔ OBS Studio 本来は、srt-live-transmitを利用せずともOBS Studioで直接srtで伝送された映像を受信できます。 しかし、今回は受信ビットレートをダッシュボードにプロットするという要件があるため、一度srt-live-transmitを経由し、受信した統計情報を名前付きパイプに吐き出させています。 名前付きパイプをStreamlitアプリから読み取る事でリアルタイムに受信したビットレートを確認できるようにしています。
 コスト比較 商用のIRLToolkitは月額$129(約19,000円)かかりますが、自作版では：
-自宅ホスティング：実質無料 AWS ECS利用時：約37円/時間（Tokyo リージョン、vCPU:4、RAM:8GB構成） (ネットワーク料金を無視すれば)21日(513時間)以内の利用であれば、自作版の方が安く利用できます。
+自宅ホスティング：実質無料 AWS ECS利用時：約150円/時間（Tokyo リージョン、vCPU:16、RAM:32GB構成） (ネットワーク料金を無視すれば)5日(126時間)以内の利用であれば、自作版の方が安く利用できます。
 今後の展望 IRLToolkitには搭載されていて、今回のアプリケーションでは実装できなかったものとして、SRTLA(SRT Link Aggregation)への対応があります。これは複数のモバイル回線を束ねて安定性を向上させる技術ですが、利用した環境の問題で実装する事ができませんでした。 今後対応したいと考えています。
 参考リンク IRLToolkit BELABOX Free Relay Hosting for your SRT, SRTLA or RTMP IRL stream Haivision/srt Xpra-org/xpra OBS Studio Streamlit </description>
     </item>
