@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Machine Learning on takeru1205</title>
+    <link>https://takeru1205.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on takeru1205</description>
+    <image>
+      <title>takeru1205</title>
+      <url>https://takeru1205.github.io/profile.JPG</url>
+      <link>https://takeru1205.github.io/profile.JPG</link>
+    </image>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 19 Jun 2025 00:06:42 +0900</lastBuildDate>
+    <atom:link href="https://takeru1205.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025-06-19 自作サーバーを立てた</title>
+      <link>https://takeru1205.github.io/posts/2025/2025-06-19/</link>
+      <pubDate>Thu, 19 Jun 2025 00:06:42 +0900</pubDate>
+      <guid>https://takeru1205.github.io/posts/2025/2025-06-19/</guid>
+      <description>自宅サーバーを立てた 勉強(遊ぶ)ためになんとなく自宅にサーバーを立てたくなった結果、気づいたら色々ポチっていた。
+スペック CPU: AMD Ryzen9 7945HX(16Core/32Thread)(Amazonリンク) RAM: DDR5-5200 SODIMM 96GB(48GBx2)(Amazonリンク) GPU: NVIDIA RTX3060 12GBAmazonリンク クーラー: Corsair NAUTILUS 240 RSAmazonリンク ストレージ: NVMe 2TBAmazonリンク 電源: 玄人志向 80PLUS Bronze 650WAmazonリンク ケース: LianLi A3-mATX BlackAmazonリンク 組む時に考えていたこと PROXMOXを使ってVMを建てたいから、コア数(スレッド数)を多くしたい Ryzen CPUを使ったことがないから使ってみたい VRAMのコスパはAMDの方が良いけど、まだまだCUDAがデファクトスタンダードだから選択しづらい メインPCがあるからGPUにはそんなにお金をかけない。 ピカピカゲーミングで眩しくない サーバーで立っているもの サーバーはざっくり以下のイメージで構成されている。
+現時点で、microk8sとDifyのVMが立っている。
+リソースの配分はこんな感じ。
+リソース microk8s Dify 余り vCPU 24 4 4 RAM 80 12 4 ストレージ 1TB 512GB 400GB その他 GPU - - microk8s microk8sでは、常時以下のものを動かしている
+mlflow tracking server MCPサーバー streamlitアプリ これらとは別に、必要な時に動かすものは以下のもの</description>
+    </item>
+  </channel>
+</rss>
