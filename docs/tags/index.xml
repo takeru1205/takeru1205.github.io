@@ -6,13 +6,27 @@
     <description>Recent content in Tags on takeru1205</description>
     <image>
       <title>takeru1205</title>
-      <url>https://takeru1205.github.io/profile.JPG</url>
-      <link>https://takeru1205.github.io/profile.JPG</link>
+      <url>https://takeru1205.github.io/cat_thumbnail.JPG</url>
+      <link>https://takeru1205.github.io/cat_thumbnail.JPG</link>
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 20 Oct 2025 23:00:49 +0900</lastBuildDate>
     <atom:link href="https://takeru1205.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FastAPI</title>
+      <link>https://takeru1205.github.io/tags/fastapi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://takeru1205.github.io/tags/fastapi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Flask</title>
+      <link>https://takeru1205.github.io/tags/flask/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://takeru1205.github.io/tags/flask/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Machine Learning</title>
       <link>https://takeru1205.github.io/tags/machine-learning/</link>
@@ -25,6 +39,20 @@
       <link>https://takeru1205.github.io/tags/mlops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://takeru1205.github.io/tags/mlops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Onnx</title>
+      <link>https://takeru1205.github.io/tags/onnx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://takeru1205.github.io/tags/onnx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>https://takeru1205.github.io/tags/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://takeru1205.github.io/tags/rust/</guid>
       <description></description>
     </item>
     <item>

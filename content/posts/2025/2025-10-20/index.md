@@ -1,7 +1,7 @@
 ---
 title: '2025-10-20 MLエンドポイントのためのライブラリを雑に比較する'
 date: 2025-10-20T23:00:49+09:00
-tags: ["Machine Learning", "MLOps"]
+tags: ["Machine Learning", "MLOps", "FastAPI", "Flask", "onnx", "Rust"]
 draft: false
 ---
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>MLOps on takeru1205</title>
-    <link>https://takeru1205.github.io/tags/mlops/</link>
-    <description>Recent content in MLOps on takeru1205</description>
+    <title>FastAPI on takeru1205</title>
+    <link>https://takeru1205.github.io/tags/fastapi/</link>
+    <description>Recent content in FastAPI on takeru1205</description>
     <image>
       <title>takeru1205</title>
       <url>https://takeru1205.github.io/cat_thumbnail.JPG</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Mon, 20 Oct 2025 23:00:49 +0900</lastBuildDate>
-    <atom:link href="https://takeru1205.github.io/tags/mlops/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://takeru1205.github.io/tags/fastapi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025-10-20 MLエンドポイントのためのライブラリを雑に比較する</title>
       <link>https://takeru1205.github.io/posts/2025/2025-10-20/</link>
