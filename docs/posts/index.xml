@@ -11,8 +11,23 @@
     </image>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Jul 2025 15:14:38 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 20 Oct 2025 23:00:49 +0900</lastBuildDate>
     <atom:link href="https://takeru1205.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025-10-20 MLエンドポイントのためのライブラリを雑に比較する</title>
+      <link>https://takeru1205.github.io/posts/2025/2025-10-20/</link>
+      <pubDate>Mon, 20 Oct 2025 23:00:49 +0900</pubDate>
+      <guid>https://takeru1205.github.io/posts/2025/2025-10-20/</guid>
+      <description>お仕事でリアルタイムのMLエンドポイントを立てる事がなく、知見があまりない。
+単純に、各フレームワークでの実行速度が気になったから雑に比較してみた。
+雑なまとめ Pythonを使う環境ならFastAPIを使えば問題ない。欲を言えば、onnxにモデルを変換しておくのが理想。
+モデルをonnxに変換できる かつ Rustを利用できる環境 なら、Rustでエンドポイントを立てるとより高速な推論が期待できる。
+比較する条件 フレームワーク Python FastAPI Flask Rust(axum, tokio) ort(onnx runtime) tract(onnx runtime) ※ RustのコードはClaudeCodeに書いてもらいました
+モデル PyTorch(2層のNN) LightGBM PyTorch ONNX(2層のNN) LightGBM ONNX タスク Titanicの生存予測(2値分類)
+学習コードは notebooks/ にある。
+特徴量 Pclass(Int) Sex(String) Age(Int) SibSp(Int) Parch(Int) Fare(Float) 前処理 Sex → Label Encoding Age → Fill Null(median) Age → Standard Scaler Fare → Standard Scaler 結果 各フレームワークで実装したエンドポイントに1000回のリクエストを送信して、計測した結果を集計した。 すべて、同じマシン上で実行・リクエストを行っている。
+Framework 平均推論時間 (ms) FastAPI 約 1.75 ms Flask 約 2.0 ms ort (Rust) 約 0.</description>
+    </item>
     <item>
       <title>2025-07-03 自分にあった集中するための環境を考える</title>
       <link>https://takeru1205.github.io/posts/2025/2025-07-03/</link>
